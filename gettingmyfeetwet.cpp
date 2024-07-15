@@ -33,7 +33,7 @@ int main(){
     x.push_back(6);
     std::cout << x.at(1) << std::endl;
     std::string username;
-    std::getline(std::cin, username);
+    
     coolClass obj1(username, "walmart", 56); 
     obj1.coolMethod();
     obj1.ageGetter(10);
