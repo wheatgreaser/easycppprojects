@@ -18,6 +18,4 @@ int main(){
     funClass obj;
     funClass *c_ptr = &obj; // object pointer 
 
-
-
 }
