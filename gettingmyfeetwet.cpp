@@ -1,18 +1,19 @@
 #include <iostream>
 #include <vector>
 namespace balls{
-    int x = 1;
+    int x = 160;
 }
-
+using int_t = int; //cool shit 
 typedef int int_t;
 // typedef std::string text_t;
+
 using text_t = std::string;
 class coolClass{
     public:
         std::string name;
         std::string company;
         int age;
-        coolClass(std::string nameinput, std::string companyinput, int ageinput){
+        coolClass(std::string nameinput, std::string companyinput, int ageinput){ //constructor
             name = nameinput;
             company = companyinput;
             age = ageinput;
@@ -27,6 +28,7 @@ class coolClass{
     }
 };
 int main(){
+    std::cout << balls::x;
     std::vector<int> x;
     x.push_back(0);
     x.push_back(5);
